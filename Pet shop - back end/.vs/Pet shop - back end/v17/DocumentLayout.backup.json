@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmcadastrocli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmcadastrocli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmcadastroprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmcadastroprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmcadastrocli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmcadastrocli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmconsulcli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmconsulcli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmconsulcli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmconsulcli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmconsulprods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmconsulprods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\frmconsulprods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmconsulprods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\pet shop - back end\\produtos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\produtos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|c:\\users\\debora\\onedrive\\desktop\\pet shop - back end\\pet shop - back end\\frmcadastroprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AE299C-B98F-419B-B718-D5852FEFE4CE}|Pet shop - back end\\Pet_shop___back_end.csproj|solutionrelative:pet shop - back end\\frmcadastroprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCadastroProd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroProd.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmCadastroProd.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroProd.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmCadastroProd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:08:36.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmSplash.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmSplash.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmSplash.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmSplash.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmSplash.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:01:35.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSplash.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmSplash.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmSplash.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmSplash.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmSplash.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:30:43.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCadastroCli.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroCli.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmCadastroCli.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroCli.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmCadastroCli.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:06:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCadastroCli.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroCli.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmCadastroCli.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroCli.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmCadastroCli.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:06:13.476Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmConsulCli.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulCli.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmConsulCli.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulCli.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmConsulCli.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:01:34.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmConsulCli.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulCli.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmConsulCli.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulCli.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmConsulCli.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:00:53.543Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmMenu.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmMenu.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:44:31.632Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmMenu.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmMenu.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmMenu.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAwwIkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:41:54.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmCadastroProd.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroProd.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmCadastroProd.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmCadastroProd.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmCadastroProd.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwDAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:21:53.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Produtos.txt",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\Produtos.txt",
+              "RelativeDocumentMoniker": "Pet shop - back end\\Produtos.txt",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\Produtos.txt",
+              "RelativeToolTip": "Pet shop - back end\\Produtos.txt",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAAC8BAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-28T02:05:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmConsulProds.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulProds.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmConsulProds.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulProds.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmConsulProds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:00:43.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmConsulProds.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulProds.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmConsulProds.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmConsulProds.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmConsulProds.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:51:32.353Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmLogin.cs",
+              "RelativeToolTip": "Pet shop - back end\\frmLogin.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:29:24.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Pet shop - back end\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:28:53.349Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\Program.cs",
+              "RelativeDocumentMoniker": "Pet shop - back end\\Program.cs",
+              "ToolTip": "C:\\Users\\Debora\\OneDrive\\Desktop\\Pet shop - back end\\Pet shop - back end\\Program.cs",
+              "RelativeToolTip": "Pet shop - back end\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:26:38.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
