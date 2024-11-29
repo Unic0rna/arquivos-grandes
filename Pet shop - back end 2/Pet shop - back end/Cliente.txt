@@ -1,0 +1,9 @@
+⁫                            -Cadastro dos clientes-
+
+ |     Nome     |     E-mail     |     Celular     |     Sexo    |     Senha     |
+
+
+daffcd   
+   dsdfds@gmail.com      (66)66666-6666      Preferiu não dizer      44   
+rgteg      ergegf@gmail.com      (22)22221-1221      Preferiu não dizer      1   
+sgsdgr      werwrwrw@gmail.com      (78)97897-9789      Outro      9   
