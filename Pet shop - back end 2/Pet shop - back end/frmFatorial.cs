@@ -74,6 +74,7 @@ namespace Pet_shop___back_end
                 
                 btnLimpar.Visible = true;
                 lblResult.Visible = true;
+                pictureBox3.Visible = true;
                 lblResult.BackColor = Color.SteelBlue;
                 lblResult.Text = "O fatorial de "+ fat +" é " + total;
 
@@ -86,19 +87,10 @@ namespace Pet_shop___back_end
             lblResult.Visible = false;
             lblErro.Visible = false;
             btnLimpar.Visible = false;
+            pictureBox3.Visible = false;
         }
 
         private void lblResult_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
         {
 
         }
@@ -108,19 +100,14 @@ namespace Pet_shop___back_end
 
         }
 
-        private void btnLimpar_MouseHover(object sender, EventArgs e)
-        {
-            btnLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_ver_;
-        }
-
-        private void btnLimpar_MouseMove(object sender, MouseEventArgs e)
-        {
-            btnLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_ver_;
-        }
-
         private void btnLimpar_MouseLeave(object sender, EventArgs e)
         {
             btnLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_escuro;
+        }
+
+        private void btnLimpar_MouseEnter(object sender, EventArgs e)
+        {
+            btnLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_ver_;
         }
     }
 }

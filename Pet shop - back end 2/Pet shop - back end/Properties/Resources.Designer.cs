@@ -143,6 +143,26 @@ namespace Pet_shop___back_end.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap duck {
             get {
                 object obj = ResourceManager.GetObject("duck", resourceCulture);
@@ -283,6 +303,16 @@ namespace Pet_shop___back_end.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_lixo_30__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-lixo-30 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_lixo_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-lixo-48", resourceCulture);
@@ -336,6 +366,16 @@ namespace Pet_shop___back_end.Properties {
         internal static System.Drawing.Bitmap icons8_pegada_de_gato_100__2_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-pegada-de-gato-100 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -486,6 +526,16 @@ namespace Pet_shop___back_end.Properties {
         internal static System.Drawing.Bitmap Rectangle_2__4_ {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 2 (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_2__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 2 (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

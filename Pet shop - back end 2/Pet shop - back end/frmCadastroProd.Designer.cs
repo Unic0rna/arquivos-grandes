@@ -328,11 +328,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox Opcao;
+        public System.Windows.Forms.ComboBox Opcao;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtNomeProd;
-        private System.Windows.Forms.TextBox txtPeso;
-        private System.Windows.Forms.TextBox txtMarca;
+        public System.Windows.Forms.TextBox txtNomeProd;
+        public System.Windows.Forms.TextBox txtPeso;
+        public System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.MaskedTextBox maskPreco;
         private System.Windows.Forms.Panel panel2;

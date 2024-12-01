@@ -90,7 +90,7 @@ namespace Pet_shop___back_end
 
         private void agendarConsultaVeterináriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmVeterinario veterinario = new frmVeterinario();
+            frmRedesSociais veterinario = new frmRedesSociais();
             veterinario.MdiParent = this;
             veterinario.Show();
         }
@@ -155,6 +155,27 @@ namespace Pet_shop___back_end
             panel1.Visible = false;
             ptbPer_Selecionado.Visible = false;
             ptbPerfil.Visible = true;
+        }
+
+        private void veterináToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsulAgenVet agenVet = new frmConsulAgenVet();
+            agenVet.MdiParent = this;
+            agenVet.Show();
+        }
+
+        private void atendimentoVeterinárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsulAvaVet avaVet = new frmConsulAvaVet();
+            avaVet.MdiParent = this;
+            avaVet.Show();
+        }
+
+        private void banhoETosaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsulAgenBanho banho = new frmConsulAgenBanho();
+            banho.MdiParent = this;
+            banho.Show();
         }
     }
 }

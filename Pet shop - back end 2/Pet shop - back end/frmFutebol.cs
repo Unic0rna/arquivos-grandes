@@ -103,12 +103,12 @@ namespace Pet_shop___back_end
 
         private void btLimpar_MouseEnter(object sender, EventArgs e)
         {
-            btLimpar.ForeColor = Color.White;
+            btLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2__6_;
         }
 
         private void btLimpar_MouseLeave(object sender, EventArgs e)
         {
-            btLimpar.ForeColor = Color.FromArgb (56, 168, 90);
+            btLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_sombra;
         }
 
         private void txtIdade_TextChanged(object sender, EventArgs e)

@@ -12,7 +12,7 @@ namespace Pet_shop___back_end
 {
     public partial class frmCadastroProd : Form
     {
-        string caminho = @"C:\Users\Debora\Downloads\Pet shop - back end\Pet shop - back end\Produtos.txt";
+        string caminho = @"C:\Pet shop - back end 2\Pet shop - back end\Produtos.txt";
 
         public frmCadastroProd()
         {
@@ -41,32 +41,32 @@ namespace Pet_shop___back_end
                 using (System.IO.StreamWriter sw = new System.IO.StreamWriter(caminho, true))
                 {
                     sw.WriteLine(" ");
-                    sw.WriteLine("Nome: " + txtNomeProd.Text);
-                    sw.WriteLine("Preço unitário: " + maskPreco.Text);
-                    sw.WriteLine("Peso: " + txtPeso.Text);
-                    sw.WriteLine("Marca: " + txtMarca.Text);
+                    sw.Write(txtNomeProd.Text + ";");
+                    sw.Write(maskPreco.Text + ";");
+                    sw.Write(txtPeso.Text + ";");
+                    sw.Write(txtMarca.Text + ";");
 
                     if (Opcao.SelectedItem == "Brinquedo")
                     {
-                        sw.WriteLine("Categoria: Brinquedo");
+                        sw.Write("Brinquedo");
                     }
 
                     else if (Opcao.SelectedItem == "Ração")
                     {
-                        sw.WriteLine("Categoria: Ração");
+                        sw.Write("Ração");
                     }
 
                     else if (Opcao.SelectedItem == "Petisco")
                     {
-                        sw.WriteLine("Categoria: Petisco");
+                        sw.Write("Petisco");
                     }
 
                     else
                     {
-                        sw.WriteLine("Categoria: Estrutura");
+                        sw.Write("Estrutura");
                     }
 
-                    sw.WriteLine("________");
+                   
                 }
                 txtMarca.Clear();
                 txtPeso.Clear();

@@ -47,11 +47,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAgenBanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenBanho.Designer.cs">
+      <DependentUpon>frmAgenBanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgenVet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenVet.Designer.cs">
+      <DependentUpon>frmAgenVet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAvaBanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAvaBanho.Designer.cs">
+      <DependentUpon>frmAvaBanho.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAvaliacaoVet.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAvaliacaoVet.Designer.cs">
       <DependentUpon>frmAvaliacaoVet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulAgenBanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulAgenBanho.Designer.cs">
+      <DependentUpon>frmConsulAgenBanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulAgenVet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulAgenVet.Designer.cs">
+      <DependentUpon>frmConsulAgenVet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulAvaBanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulAvaBanho.Designer.cs">
+      <DependentUpon>frmConsulAvaBanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulAvaVet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulAvaVet.Designer.cs">
+      <DependentUpon>frmConsulAvaVet.cs</DependentUpon>
     </Compile>
     <Compile Include="frmConsulCli.cs">
       <SubType>Form</SubType>
@@ -131,17 +173,23 @@
     <Compile Include="frmMenuAdm.Designer.cs">
       <DependentUpon>frmMenuAdm.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfil.Designer.cs">
+      <DependentUpon>frmPerfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSplash.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSplash.Designer.cs">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmVeterinario.cs">
+    <Compile Include="frmRedesSociais.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVeterinario.designer.cs">
-      <DependentUpon>frmVeterinario.cs</DependentUpon>
+    <Compile Include="frmRedesSociais.designer.cs">
+      <DependentUpon>frmRedesSociais.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -151,8 +199,32 @@
     <Compile Include="frmRede_Senha.Designer.cs">
       <DependentUpon>frmRede_Senha.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReadUsuario.cs" />
+    <Compile Include="teste.cs" />
+    <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="frmAgenBanho.resx">
+      <DependentUpon>frmAgenBanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenVet.resx">
+      <DependentUpon>frmAgenVet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAvaBanho.resx">
+      <DependentUpon>frmAvaBanho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAvaliacaoVet.resx">
       <DependentUpon>frmAvaliacaoVet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulAgenBanho.resx">
+      <DependentUpon>frmConsulAgenBanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulAgenVet.resx">
+      <DependentUpon>frmConsulAgenVet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulAvaBanho.resx">
+      <DependentUpon>frmConsulAvaBanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulAvaVet.resx">
+      <DependentUpon>frmConsulAvaVet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConsulCli.resx">
       <DependentUpon>frmConsulCli.cs</DependentUpon>
@@ -193,14 +265,17 @@
     <EmbeddedResource Include="frmMenuAdm.resx">
       <DependentUpon>frmMenuAdm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfil.resx">
+      <DependentUpon>frmPerfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRede_Senha.resx">
       <DependentUpon>frmRede_Senha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmVeterinario.resx">
-      <DependentUpon>frmVeterinario.cs</DependentUpon>
+    <EmbeddedResource Include="frmRedesSociais.resx">
+      <DependentUpon>frmRedesSociais.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -286,8 +361,18 @@
     <None Include="Resources\bff.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AvaVet.txt" />
+    <Content Include="Banho.txt" />
     <Content Include="Cliente.txt" />
+    <Content Include="Login.txt" />
     <Content Include="Produtos.txt" />
+    <Content Include="Produtos_.txt" />
+    <None Include="Resources\Rectangle 2 %286%29.png" />
+    <None Include="Resources\Design sem nome %281%29.png" />
+    <None Include="Resources\Inserir um título %281%29.png" />
+    <None Include="Resources\icons8-lixo-30 %281%29.png" />
+    <None Include="Resources\Design sem nome %283%29.png" />
+    <Content Include="Veterinario.txt" />
     <None Include="Resources\estrela_preenchida.png" />
     <None Include="Resources\icons8-estrela-50.png" />
     <None Include="Resources\Rectangle 21.png" />

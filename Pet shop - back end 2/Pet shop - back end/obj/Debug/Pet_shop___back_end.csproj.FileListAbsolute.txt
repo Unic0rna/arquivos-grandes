@@ -71,3 +71,37 @@ C:\Users\Debora\OneDrive\Desktop\Pet shop - back end 2\Pet shop - back end\obj\D
 C:\Users\Debora\OneDrive\Desktop\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMenuCliente.resources
 C:\Users\Debora\OneDrive\Desktop\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMenuAdm.resources
 C:\Users\Debora\OneDrive\Desktop\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmAvaliacaoVet.resources
+C:\Pet shop - back end 2\Pet shop - back end\bin\Debug\Pet shop - back end.exe.config
+C:\Pet shop - back end 2\Pet shop - back end\bin\Debug\Pet shop - back end.exe
+C:\Pet shop - back end 2\Pet shop - back end\bin\Debug\Pet shop - back end.pdb
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.csproj.AssemblyReference.cache
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmAvaliacaoVet.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulCli.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmFatorial.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmFibonacci.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmFutebol.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.aba.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMenuCliente.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMes.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMaiorMenor.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmCadastroCli.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmCadastroProd.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulProds.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmLogin.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmMenuAdm.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmRede_Senha.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmSplash.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.Properties.Resources.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.csproj.GenerateResource.cache
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.csproj.CoreCompileInputs.cache
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet shop - back end.exe
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet shop - back end.pdb
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmAgenVet.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmRedesSociais.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulAgenVet.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulAvaVet.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmAgenBanho.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulAgenBanho.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmAvaBanho.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmConsulAvaBanho.resources
+C:\Pet shop - back end 2\Pet shop - back end\obj\Debug\Pet_shop___back_end.frmPerfil.resources

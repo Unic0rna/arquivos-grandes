@@ -1,0 +1,3 @@
+email;senha;tipoUsuario
+a;pat1nha;adm
+bola;bolinha;cliente

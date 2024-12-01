@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace Pet_shop___back_end
     {
         public string codigo = "706de";
         public string Novo {get;set;}
+
+        string caminho = @"C:\Pet shop - back end 2\Pet shop - back end\Login.txt";
 
         public frmRede_Senha()
         {
@@ -30,11 +33,29 @@ namespace Pet_shop___back_end
         {
             frmLogin login = new frmLogin();
             
-            if (txtCaptcha.Text == codigo && pcbCaixa_Checada.Visible == true && login.email == txtEmail.Text 
-                && txtNova_Senha.Text == txtConfi_Senha.Text)
+            if (txtCaptcha.Text == codigo && pcbCaixa_Checada.Visible == true && 
+                txtNova_Senha.Text == txtConfi_Senha.Text)
             {
+                
+                ReadUsuario readUsuario = new ReadUsuario();
+                List<Usuario> listaUsuarios = readUsuario.BuscaUsuarios();
+
+                var usuario = listaUsuarios.FirstOrDefault(usu => usu.Email == txtEmail.Text);
+
+                if (usuario == null)
+                {
+                    MessageBox.Show("Usuário inválido", "Erro",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    return;
+                }
+
+                int indexLinha = listaUsuarios.IndexOf(usuario);
+
+                string[] arrLine = File.ReadAllLines(caminho);
+                arrLine[indexLinha] = usuario.Email + ";" + txtNova_Senha.Text + ";" + usuario.TipoUsuario;
+                File.WriteAllLines(caminho, arrLine);
+
                 MessageBox.Show("Senha redefinida com sucesso!", "Sucesso", MessageBoxButtons.OK,MessageBoxIcon.Information);
-                login.VeSenha = txtNova_Senha.Text;
+                
                 login.Show();
                 this.Close();
                 

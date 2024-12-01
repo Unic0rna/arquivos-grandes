@@ -40,10 +40,61 @@ namespace Pet_shop___back_end
 
         private void agendarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmVeterinario veterinario = new frmVeterinario();
+            frmAgenVet veterinario = new frmAgenVet();
             veterinario.MdiParent = this;
             veterinario.Show();
 
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            login.Show();
+            this.Hide();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnSair_MouseEnter(object sender, EventArgs e)
+        {
+            btnSair.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_ver_;
+        }
+
+        private void btnSair_MouseLeave(object sender, EventArgs e)
+        {
+            btnSair.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_escuro;
+        }
+
+        private void redesSociaisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRedesSociais redesSociais = new frmRedesSociais();
+            redesSociais.MdiParent = this;
+            redesSociais.Show();
+
+        }
+
+        private void avaliartim_Click(object sender, EventArgs e)
+        {
+            frmAvaliacaoVet avaliVet = new frmAvaliacaoVet();
+            avaliVet.MdiParent = this;
+            avaliVet.Show();
+        }
+
+        private void agendarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmAgenBanho agenBanho = new frmAgenBanho();
+            agenBanho.MdiParent = this;
+            agenBanho.Show();
+        }
+
+        private void avaliarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmAvaBanho banho = new frmAvaBanho();
+            banho.MdiParent = this;
+            banho.Show();
         }
     }
 }

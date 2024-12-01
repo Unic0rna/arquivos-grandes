@@ -46,47 +46,47 @@ namespace Pet_shop___back_end
 
                         else
                         {
-                            sw.WriteLine("");
-                            sw.Write(txtNome.Text + "   ");
+                            sw.WriteLine(" ");
+                            sw.Write(txtNome.Text + ";");
 
                             if(email.Contains(arroba))
                             {
-                                sw.Write("   "+ txtEmail.Text + "   ");
+                                sw.Write(txtEmail.Text + ";");
                             }
 
                             else
                             {
-                                sw.Write("   " + txtEmail.Text + "@gmail.com   ");
+                                sw.Write(txtEmail.Text + "@gmail.com;");
                             }
                             
-                            sw.Write("   " + maskedCelular.Text + "   ");
+                            sw.Write(maskedCelular.Text + ";");
 
                             if (radFeminino.Checked == true)
                             {
-                                sw.Write("   Feminino   ");
+                                sw.Write("Feminino;");
                             }
 
                             else if (radMasculino.Checked == true)
                             {
-                                sw.Write("   Masculino   ");
+                                sw.Write("Masculino;");
                             }
 
                             else if (radNB.Checked == true)
                             {
-                                sw.Write("   Não-Binário   ");
+                                sw.Write("Não-Binário;");
                             }
 
                             else if (radOutro.Checked == true)
                             {
-                                sw.Write("   Outro   ");
+                                sw.Write("Outro;");
                             }
 
                             else if (radPriv.Checked == true)
                             {
-                                sw.Write("   Preferiu não dizer   ");
+                                sw.Write("Preferiu não dizer;");
                             }
 
-                            sw.Write("   " + txtSenha.Text + "   ");
+                            sw.Write(txtSenha.Text);
                            
                             sw.Close();
                         }

@@ -54,6 +54,21 @@ namespace Pet_shop___back_end
             calendario.Visible = false;
         }
 
+        private void btLimpar_MouseLeave(object sender, EventArgs e)
+        {
+            btLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_escuro;
+        }
+
+        private void btLimpar_MouseEnter(object sender, EventArgs e)
+        {
+            btLimpar.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_ver_;
+        }
+
+        private void btMes_MouseEnter(object sender, EventArgs e)
+        {
+            btMes.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2__1_1;
+        }
+
         private void txtDigi_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)

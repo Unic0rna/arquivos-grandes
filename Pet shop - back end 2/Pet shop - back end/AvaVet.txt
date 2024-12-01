@@ -1,0 +1,12 @@
+ 
+Nota: 1.0
+Comentário: ruim demais!
+__________
+ 
+Nota: 4.0
+Comentário: quase muito bom...
+__________
+ 
+Nota: 2.0
+Comentário: Troço ruim
+__________

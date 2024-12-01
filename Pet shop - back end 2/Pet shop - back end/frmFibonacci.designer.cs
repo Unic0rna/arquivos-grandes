@@ -28,32 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFibonacci));
             this.label1 = new System.Windows.Forms.Label();
             this.lblResult = new System.Windows.Forms.Label();
             this.txtDigitado = new System.Windows.Forms.TextBox();
             this.lblErro = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btLimpar = new System.Windows.Forms.Button();
             this.btResp = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(146, 140);
+            this.label1.Location = new System.Drawing.Point(162, 142);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 35);
+            this.label1.Size = new System.Drawing.Size(254, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Digite um número:";
             // 
@@ -62,16 +69,16 @@
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Cascadia Mono SemiLight", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(25, 280);
+            this.lblResult.Location = new System.Drawing.Point(78, 244);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(693, 156);
+            this.lblResult.Size = new System.Drawing.Size(591, 197);
             this.lblResult.TabIndex = 1;
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtDigitado
             // 
             this.txtDigitado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDigitado.Location = new System.Drawing.Point(426, 146);
+            this.txtDigitado.Location = new System.Drawing.Point(422, 146);
             this.txtDigitado.Name = "txtDigitado";
             this.txtDigitado.Size = new System.Drawing.Size(202, 30);
             this.txtDigitado.TabIndex = 0;
@@ -84,14 +91,14 @@
             this.lblErro.ForeColor = System.Drawing.Color.Red;
             this.lblErro.Location = new System.Drawing.Point(422, 179);
             this.lblErro.Name = "lblErro";
-            this.lblErro.Size = new System.Drawing.Size(236, 65);
+            this.lblErro.Size = new System.Drawing.Size(247, 65);
             this.lblErro.TabIndex = 3;
             this.lblErro.Visible = false;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Cascadia Mono", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(12, -10);
             this.label2.Name = "label2";
@@ -100,38 +107,16 @@
             this.label2.Text = "Digite um número para aparecer a quantidade de dígitos da sequência Fibonacci";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::Pet_shop___back_end.Properties.Resources.icons8_cat_footprint_100__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(18, 111);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(28, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::Pet_shop___back_end.Properties.Resources.icons8_cat_footprint_100__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(-8, 190);
+            this.pictureBox4.Image = global::Pet_shop___back_end.Properties.Resources.icons8_pegada_de_gato_100__2_;
+            this.pictureBox4.Location = new System.Drawing.Point(-16, 146);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(68, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Pet_shop___back_end.Properties.Resources.icons8_cat_footprint_100__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 140);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(68, 42);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
             // 
             // btLimpar
             // 
@@ -143,11 +128,13 @@
             this.btLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btLimpar.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btLimpar.ForeColor = System.Drawing.Color.White;
-            this.btLimpar.Location = new System.Drawing.Point(207, 461);
+            this.btLimpar.Image = global::Pet_shop___back_end.Properties.Resources.icons8_lixo_30__1_;
+            this.btLimpar.Location = new System.Drawing.Point(527, 463);
             this.btLimpar.Name = "btLimpar";
             this.btLimpar.Size = new System.Drawing.Size(142, 61);
             this.btLimpar.TabIndex = 2;
             this.btLimpar.Text = "Limpar";
+            this.btLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btLimpar.UseVisualStyleBackColor = false;
             this.btLimpar.Visible = false;
             this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
@@ -167,7 +154,7 @@
             this.btResp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btResp.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btResp.ForeColor = System.Drawing.Color.White;
-            this.btResp.Location = new System.Drawing.Point(6, 461);
+            this.btResp.Location = new System.Drawing.Point(84, 463);
             this.btResp.Name = "btResp";
             this.btResp.Size = new System.Drawing.Size(141, 61);
             this.btResp.TabIndex = 1;
@@ -177,16 +164,71 @@
             this.btResp.MouseEnter += new System.EventHandler(this.btResp_MouseEnter);
             this.btResp.MouseLeave += new System.EventHandler(this.btResp_MouseLeave);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(653, 35);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(202, 253);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(-145, 225);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(241, 279);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Pet_shop___back_end.Properties.Resources.icons8_pegada_de_gato_100__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 102);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(68, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Pet_shop___back_end.Properties.Resources.icons8_cat_footprint_100__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(133, 492);
+            this.pictureBox2.Image = global::Pet_shop___back_end.Properties.Resources.icons8_pegada_de_gato_100__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(-7, 57);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(68, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::Pet_shop___back_end.Properties.Resources.icons8_pegada_de_gato_100__1_;
+            this.pictureBox6.Location = new System.Drawing.Point(675, 495);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(68, 42);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 18;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = global::Pet_shop___back_end.Properties.Resources.icons8_pegada_de_gato_100__1_;
+            this.pictureBox7.Location = new System.Drawing.Point(675, 451);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(44, 38);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
             // 
             // frmFibonacci
             // 
@@ -195,26 +237,32 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(745, 536);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.btLimpar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btResp);
             this.Controls.Add(this.lblErro);
             this.Controls.Add(this.txtDigitado);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblResult);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmFibonacci";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fibonacci";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,10 +277,13 @@
         private System.Windows.Forms.Button btResp;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btLimpar;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

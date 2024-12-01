@@ -68,6 +68,7 @@ namespace Pet_shop___back_end
 
                         btVisu.Visible = true;
                         btLimpar.Visible = true;    
+                        pictureBox3.Visible = true;
                     }
                 }
                 
@@ -90,7 +91,7 @@ namespace Pet_shop___back_end
             lblErro.Text = "";
             lblMaior.Visible = false;
             lblMenor.Visible = false;
-
+            pictureBox3.Visible= false;
         }
 
         private void lblTeste_Click(object sender, EventArgs e)
@@ -114,6 +115,9 @@ namespace Pet_shop___back_end
             label2.Visible = true;
             label3.Visible = true;
             pictureBox1.Visible = true;
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
 
             if (numeros == 19)
             {
@@ -144,6 +148,8 @@ namespace Pet_shop___back_end
             label2.Visible = false;
             label3.Visible = false;
             pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
 
 
             int i = 0;

@@ -36,6 +36,13 @@
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosCadastradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agendamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasVeterinárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atendimentoVeterinárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atendimentoBanhoETosaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.banhoETosaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.veterináToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.banhoETosaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.utilitáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.futebol = new System.Windows.Forms.ToolStripMenuItem();
             this.fatorial = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,6 +69,7 @@
             this.Menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem,
             this.produtoToolStripMenuItem,
+            this.agendamentosToolStripMenuItem,
             this.utilitáriosToolStripMenuItem});
             this.Menu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.Menu.Location = new System.Drawing.Point(0, 0);
@@ -129,17 +137,81 @@
             this.cadastroToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(454, 46);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(581, 46);
             this.cadastroToolStripMenuItem.Text = "Cadastrar";
             this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // produtosCadastradoToolStripMenuItem
             // 
+            this.produtosCadastradoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("produtosCadastradoToolStripMenuItem.Image")));
+            this.produtosCadastradoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.produtosCadastradoToolStripMenuItem.Name = "produtosCadastradoToolStripMenuItem";
             this.produtosCadastradoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.produtosCadastradoToolStripMenuItem.Size = new System.Drawing.Size(581, 46);
             this.produtosCadastradoToolStripMenuItem.Text = "Consultar produtos cadastrado";
             this.produtosCadastradoToolStripMenuItem.Click += new System.EventHandler(this.produtosCadastradoToolStripMenuItem_Click);
+            // 
+            // agendamentosToolStripMenuItem
+            // 
+            this.agendamentosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultasVeterinárioToolStripMenuItem,
+            this.banhoETosaToolStripMenuItem});
+            this.agendamentosToolStripMenuItem.Font = new System.Drawing.Font("Poppins Medium", 18F);
+            this.agendamentosToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.agendamentosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("agendamentosToolStripMenuItem.Image")));
+            this.agendamentosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.agendamentosToolStripMenuItem.Name = "agendamentosToolStripMenuItem";
+            this.agendamentosToolStripMenuItem.Size = new System.Drawing.Size(179, 54);
+            this.agendamentosToolStripMenuItem.Text = "Consultar";
+            // 
+            // consultasVeterinárioToolStripMenuItem
+            // 
+            this.consultasVeterinárioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.atendimentoVeterinárioToolStripMenuItem,
+            this.atendimentoBanhoETosaToolStripMenuItem});
+            this.consultasVeterinárioToolStripMenuItem.Name = "consultasVeterinárioToolStripMenuItem";
+            this.consultasVeterinárioToolStripMenuItem.Size = new System.Drawing.Size(285, 46);
+            this.consultasVeterinárioToolStripMenuItem.Text = "Avaliações";
+            // 
+            // atendimentoVeterinárioToolStripMenuItem
+            // 
+            this.atendimentoVeterinárioToolStripMenuItem.Name = "atendimentoVeterinárioToolStripMenuItem";
+            this.atendimentoVeterinárioToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.atendimentoVeterinárioToolStripMenuItem.Size = new System.Drawing.Size(517, 46);
+            this.atendimentoVeterinárioToolStripMenuItem.Text = "Atendimento veterinário";
+            this.atendimentoVeterinárioToolStripMenuItem.Click += new System.EventHandler(this.atendimentoVeterinárioToolStripMenuItem_Click);
+            // 
+            // atendimentoBanhoETosaToolStripMenuItem
+            // 
+            this.atendimentoBanhoETosaToolStripMenuItem.Name = "atendimentoBanhoETosaToolStripMenuItem";
+            this.atendimentoBanhoETosaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
+            this.atendimentoBanhoETosaToolStripMenuItem.Size = new System.Drawing.Size(517, 46);
+            this.atendimentoBanhoETosaToolStripMenuItem.Text = "Atendimento banho e tosa";
+            // 
+            // banhoETosaToolStripMenuItem
+            // 
+            this.banhoETosaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.veterináToolStripMenuItem,
+            this.banhoETosaToolStripMenuItem1});
+            this.banhoETosaToolStripMenuItem.Name = "banhoETosaToolStripMenuItem";
+            this.banhoETosaToolStripMenuItem.Size = new System.Drawing.Size(285, 46);
+            this.banhoETosaToolStripMenuItem.Text = "Agendamentos";
+            // 
+            // veterináToolStripMenuItem
+            // 
+            this.veterináToolStripMenuItem.Name = "veterináToolStripMenuItem";
+            this.veterináToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.J)));
+            this.veterináToolStripMenuItem.Size = new System.Drawing.Size(338, 46);
+            this.veterináToolStripMenuItem.Text = "Veterinário";
+            this.veterináToolStripMenuItem.Click += new System.EventHandler(this.veterináToolStripMenuItem_Click);
+            // 
+            // banhoETosaToolStripMenuItem1
+            // 
+            this.banhoETosaToolStripMenuItem1.Name = "banhoETosaToolStripMenuItem1";
+            this.banhoETosaToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
+            this.banhoETosaToolStripMenuItem1.Size = new System.Drawing.Size(338, 46);
+            this.banhoETosaToolStripMenuItem1.Text = "Banho e tosa";
+            this.banhoETosaToolStripMenuItem1.Click += new System.EventHandler(this.banhoETosaToolStripMenuItem1_Click);
             // 
             // utilitáriosToolStripMenuItem
             // 
@@ -353,5 +425,12 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox ptbPer_Selecionado;
+        private System.Windows.Forms.ToolStripMenuItem agendamentosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasVeterinárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem banhoETosaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem banhoETosaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem veterináToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atendimentoBanhoETosaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atendimentoVeterinárioToolStripMenuItem;
     }
 }

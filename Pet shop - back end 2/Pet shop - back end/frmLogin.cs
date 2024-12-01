@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,7 @@ namespace Pet_shop___back_end
 {
     public partial class frmLogin : Form
     {
-        public string email = "a";
-        public string VeSenha { get; set; }
-
+  
         public frmLogin()
         {
             InitializeComponent();
@@ -35,31 +34,36 @@ namespace Pet_shop___back_end
         {
             
             frmRede_Senha senha = new frmRede_Senha();
-            string b = txtSenha.Text, a = senha.txtNova_Senha.Text;
+            string b = txtSenha.Text, a = senha.txtNova_Senha.Text, linha;
+            List<Usuario> listaUsuarios = new List<Usuario>();
 
-            if (txtEmail.Text == "a" && txtSenha.Text == "a")
-            {
-                frmMenuAdm menu = new frmMenuAdm();
-                menu.Show();
-                this.Hide();
-            }
+            ReadUsuario readUsuario = new ReadUsuario();
+            listaUsuarios = readUsuario.BuscaUsuarios();
 
-            else if (txtEmail.Text == "a" && txtSenha.Text == VeSenha)
-            {
-                frmMenuAdm menu = new frmMenuAdm();
-                menu.Show();
-                this.Hide();
-            }
+            var usuario = listaUsuarios.FirstOrDefault(usu => usu.Email == txtEmail.Text && usu.Senha == txtSenha.Text);
 
-            else
+            
+            if (usuario == null)
             {
                 MessageBox.Show("usuário ou senha incorreta!", "Atenção!", MessageBoxButtons.OK);
+                return;
+                
             }
 
-            //if (b.Contains(senha.txtNova_Senha.Text))
-            //{
-            //    MessageBox.Show("teste");
-            //}
+            if (usuario.TipoUsuario == "adm")
+            {
+                frmMenuAdm menuAdm = new frmMenuAdm();
+                menuAdm.Show();
+                this.Hide();
+            }
+            else
+            {
+                frmMenuCliente menuCliente = new frmMenuCliente();
+                menuCliente.Show();
+                this.Hide();
+            }
+
+            
         }
 
         private void OlhoFechado_Click(object sender, EventArgs e)
