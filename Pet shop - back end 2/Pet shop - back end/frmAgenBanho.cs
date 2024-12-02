@@ -22,6 +22,7 @@ namespace Pet_shop___back_end
         private void textBox4_Click(object sender, EventArgs e)
         {
             txtObservacoes.Text = "";
+            txtObservacoes.ForeColor = Color.Black;
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)

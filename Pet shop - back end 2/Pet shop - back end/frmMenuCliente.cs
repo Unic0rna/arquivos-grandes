@@ -96,5 +96,36 @@ namespace Pet_shop___back_end
             banho.MdiParent = this;
             banho.Show();
         }
+
+        private void informaçõesPessoaisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPerfil perfil = new frmPerfil();
+            perfil.MdiParent = this;
+            perfil.Show();
+        }
+
+        private void naoSelecionado_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+            Selecionado.Visible = true;
+            naoSelecionado.Visible = false;
+        }
+
+        private void Selecionado_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+            Selecionado.Visible = false;
+            naoSelecionado.Visible = true;
+        }
+
+        private void btnLogin_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogin.BackgroundImage = Properties.Resources.retangulo_escuro;
+        }
+
+        private void btnLogin_MouseEnter(object sender, EventArgs e)
+        {
+            btnLogin.BackgroundImage = Properties.Resources.Rectangle_1;
+        }
     }
 }

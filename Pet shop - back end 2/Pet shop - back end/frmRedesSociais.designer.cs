@@ -30,19 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRedesSociais));
             this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnInstagram = new System.Windows.Forms.Button();
             this.btnWhats = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSite = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -55,26 +56,15 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Nossas redes sociais!";
             // 
-            // label1
+            // pictureBox5
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(141, 386);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 48);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Confira nosso site";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Pet_shop___back_end.Properties.Resources.Inserir_um_título__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(-174, 341);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(403, 274);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox5.Image = global::Pet_shop___back_end.Properties.Resources.Inserir_um_título__1_;
+            this.pictureBox5.Location = new System.Drawing.Point(469, -119);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(403, 274);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -101,7 +91,10 @@
             this.btnInstagram.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_sombra;
             this.btnInstagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnInstagram.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInstagram.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.btnInstagram.FlatAppearance.BorderSize = 0;
+            this.btnInstagram.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.btnInstagram.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.btnInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInstagram.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInstagram.Image = ((System.Drawing.Image)(resources.GetObject("btnInstagram.Image")));
@@ -112,6 +105,7 @@
             this.btnInstagram.Text = " Instagram";
             this.btnInstagram.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInstagram.UseVisualStyleBackColor = true;
+            this.btnInstagram.Click += new System.EventHandler(this.btnInstagram_Click);
             this.btnInstagram.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             this.btnInstagram.MouseLeave += new System.EventHandler(this.btnInstagram_MouseLeave);
             // 
@@ -120,7 +114,10 @@
             this.btnWhats.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_sombra;
             this.btnWhats.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnWhats.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWhats.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.btnWhats.FlatAppearance.BorderSize = 0;
+            this.btnWhats.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.btnWhats.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.btnWhats.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWhats.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWhats.Image = ((System.Drawing.Image)(resources.GetObject("btnWhats.Image")));
@@ -145,15 +142,46 @@
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBox1
             // 
-            this.pictureBox5.Image = global::Pet_shop___back_end.Properties.Resources.Inserir_um_título__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(469, -119);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(403, 274);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
+            this.pictureBox1.Image = global::Pet_shop___back_end.Properties.Resources.Inserir_um_título__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(-174, 341);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(403, 274);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnSite
+            // 
+            this.btnSite.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_sombra;
+            this.btnSite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSite.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSite.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.btnSite.FlatAppearance.BorderSize = 0;
+            this.btnSite.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.btnSite.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.btnSite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSite.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSite.Location = new System.Drawing.Point(220, 392);
+            this.btnSite.Name = "btnSite";
+            this.btnSite.Size = new System.Drawing.Size(219, 72);
+            this.btnSite.TabIndex = 13;
+            this.btnSite.Text = "Acesse nosso site";
+            this.btnSite.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSite.UseVisualStyleBackColor = true;
+            this.btnSite.MouseEnter += new System.EventHandler(this.btnSite_MouseEnter);
+            this.btnSite.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Poppins Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(292, 336);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 42);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "ou";
             // 
             // frmRedesSociais
             // 
@@ -161,28 +189,30 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(712, 489);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSite);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnInstagram);
             this.Controls.Add(this.btnWhats);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRedesSociais";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confira nossas redes sociais!";
             this.Load += new System.EventHandler(this.frmVeterinario_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -192,9 +222,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button btnSite;
+        private System.Windows.Forms.Label label1;
     }
 }

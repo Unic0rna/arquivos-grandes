@@ -33,5 +33,15 @@ namespace Pet_shop___back_end
                 lista.DataSource = linhas;
             }
         }
+
+        private void btnConsul_MouseEnter(object sender, EventArgs e)
+        {
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_21;
+        }
+
+        private void btnConsul_MouseLeave(object sender, EventArgs e)
+        {
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_ama;
+        }
     }
 }

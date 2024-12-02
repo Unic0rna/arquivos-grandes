@@ -1,2 +1,6 @@
-Nome do produto;Preço unitário;Peso;Marca;Categoria
-a;a;a;a;a
+Produto;Preço unitário;Peso;Marca;Categoria
+sdfsd;sfsdf;sdfsf;dsf;sdf
+dfsdf;sfsdf;fdsafs;afs;dfa 
+Osso;120,00;1kg;bombom;Petisco 
+Casinha para cachorro;200,00;5kg;irmãos a obra;Estrutura 
+Cama;100,50;1kg;Ortobom;Estrutura

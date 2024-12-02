@@ -45,6 +45,7 @@ namespace Pet_shop___back_end
                     sw.Write(maskPreco.Text + ";");
                     sw.Write(txtPeso.Text + ";");
                     sw.Write(txtMarca.Text + ";");
+                    sw.Write(Opcao.Text);
 
                     if (Opcao.SelectedItem == "Brinquedo")
                     {
@@ -74,7 +75,7 @@ namespace Pet_shop___back_end
                 maskPreco.Clear();
                 Opcao.SelectedItem = null;
 
-                MessageBox.Show("Você foi cadastrado com sucesso!", "Atenção",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("O produto foi cadastrado com sucesso!", "Cadastrado",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
             }
 
             
@@ -82,17 +83,17 @@ namespace Pet_shop___back_end
 
         private void btnCadastrar_MouseHover(object sender, EventArgs e)
         {
-            btnCadastrar.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2;
+            btnCadastrar.BackgroundImage = Properties.Resources.Rectangle_2;
         }
 
         private void btnCadastrar_MouseLeave(object sender, EventArgs e)
         {
-            btnCadastrar.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2__3_;
+            btnCadastrar.BackgroundImage = Properties.Resources.Rectangle_2__3_;
         }
 
         private void btnCadastrar_MouseMove(object sender, MouseEventArgs e)
         {
-            btnCadastrar.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2__4_;
+            btnCadastrar.BackgroundImage = Properties.Resources.Rectangle_2__4_;
         }
 
         private void frmCadastroProd_Load(object sender, EventArgs e)

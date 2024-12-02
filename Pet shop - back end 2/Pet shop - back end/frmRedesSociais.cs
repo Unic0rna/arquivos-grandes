@@ -57,5 +57,24 @@ namespace Pet_shop___back_end
             btnInstagram.Location = new Point(220, 241);
             btnInstagram.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_sombra;
         }
+
+        private void btnInstagram_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.instagram.com/petpatinhas_sp/?igsh=bG4zdnI4N3VmZ2M3#");
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            btnSite.Size = new Size(219, 72);
+            btnSite.Location = new Point(220, 392);
+            btnSite.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_sombra;
+        }
+
+        private void btnSite_MouseEnter(object sender, EventArgs e)
+        {
+            btnSite.Size = new Size(253, 87);
+            btnSite.Location = new Point(204, 390);
+            btnSite.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_ama;
+        }
     }
 }

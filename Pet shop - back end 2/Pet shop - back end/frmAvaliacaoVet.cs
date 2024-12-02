@@ -24,33 +24,33 @@ namespace Pet_shop___back_end
         {
             nota = "1";
 
-            estrela1.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela2.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela3.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela4.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela5.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+            estrela1.Image = Properties.Resources.estrela_preenchida;
+            estrela2.Image = Properties.Resources.icons8_estrela_50;
+            estrela3.Image = Properties.Resources.icons8_estrela_50;
+            estrela4.Image = Properties.Resources.icons8_estrela_50;
+            estrela5.Image = Properties.Resources.icons8_estrela_50;
         }
 
         private void estrela2_Click(object sender, EventArgs e)
         {
             nota = "2";
 
-            estrela1.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela2.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela3.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela4.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela5.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+            estrela1.Image = Properties.Resources.estrela_preenchida;
+            estrela2.Image = Properties.Resources.estrela_preenchida;
+            estrela3.Image = Properties.Resources.icons8_estrela_50;
+            estrela4.Image = Properties.Resources.icons8_estrela_50;
+            estrela5.Image = Properties.Resources.icons8_estrela_50;
         }
 
         private void estrela3_Click(object sender, EventArgs e)
         {
             nota = "3";
 
-            estrela1.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela2.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela3.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela4.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
-            estrela5.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+            estrela1.Image = Properties.Resources.estrela_preenchida;
+            estrela2.Image = Properties.Resources.estrela_preenchida;
+            estrela3.Image = Properties.Resources.estrela_preenchida;
+            estrela4.Image = Properties.Resources.icons8_estrela_50;
+            estrela5.Image = Properties.Resources.icons8_estrela_50;
         }
 
         private void estrela4_Click(object sender, EventArgs e)
@@ -58,9 +58,9 @@ namespace Pet_shop___back_end
             nota = "4";
 
             estrela1.Image = Properties.Resources.estrela_preenchida;
-            estrela2.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela3.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela4.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
+            estrela2.Image = Properties.Resources.estrela_preenchida;
+            estrela3.Image = Properties.Resources.estrela_preenchida;
+            estrela4.Image = Properties.Resources.estrela_preenchida;
             estrela5.Image = Properties.Resources.icons8_estrela_50;
         }
 
@@ -68,11 +68,11 @@ namespace Pet_shop___back_end
         {
             nota = "5";
 
-            estrela1.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela2.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela3.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela4.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
-            estrela5.Image = Pet_shop___back_end.Properties.Resources.estrela_preenchida;
+            estrela1.Image = Properties.Resources.estrela_preenchida;
+            estrela2.Image = Properties.Resources.estrela_preenchida;
+            estrela3.Image = Properties.Resources.estrela_preenchida;
+            estrela4.Image = Properties.Resources.estrela_preenchida;
+            estrela5.Image = Properties.Resources.estrela_preenchida;
         }
 
 
@@ -89,6 +89,7 @@ namespace Pet_shop___back_end
         private void txtAva_Click(object sender, EventArgs e)
         {
             txtAva.Text = "";
+            txtAva.ForeColor = Color.Black;
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)
@@ -133,9 +134,25 @@ namespace Pet_shop___back_end
                     sw.WriteLine("__________");
                     sw.Close();
                     MessageBox.Show("Enviado com sucesso! Agradecemos por enviar uma avaliação para nós", "Enviado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtAva.Text = "Escreva sua experiência...";
+                    estrela1.Image = Properties.Resources.icons8_estrela_50;
+                    estrela2.Image = Properties.Resources.icons8_estrela_50;
+                    estrela3.Image = Properties.Resources.icons8_estrela_50;
+                    estrela4.Image = Properties.Resources.icons8_estrela_50;
+                    estrela5.Image = Properties.Resources.icons8_estrela_50;
                 }
 
             }
+        }
+
+        private void btnEnviar_MouseEnter(object sender, EventArgs e)
+        {
+            btnEnviar.BackgroundImage = Properties.Resources.Rectangle_21;
+        }
+
+        private void btnEnviar_MouseLeave(object sender, EventArgs e)
+        {
+            btnEnviar.BackgroundImage = Properties.Resources.bot_ama;
         }
     }
 }

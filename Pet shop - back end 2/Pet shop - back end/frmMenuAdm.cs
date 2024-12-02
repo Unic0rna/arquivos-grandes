@@ -177,5 +177,12 @@ namespace Pet_shop___back_end
             banho.MdiParent = this;
             banho.Show();
         }
+
+        private void atendimentoBanhoETosaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsulAvaBanho avaBanho = new frmConsulAvaBanho();
+            avaBanho.MdiParent = this;
+            avaBanho.Show();
+        }
     }
 }

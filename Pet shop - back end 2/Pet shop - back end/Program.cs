@@ -16,7 +16,7 @@ namespace Pet_shop___back_end
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenuAdm());
+            Application.Run(new frmConsulAgenVet());
         }
     }
 }

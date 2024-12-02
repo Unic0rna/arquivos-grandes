@@ -23,7 +23,8 @@ namespace Pet_shop___back_end
 
         private void frmConsulCli_Load(object sender, EventArgs e)
         {
-
+            dgvDados.EnableHeadersVisualStyles = false;
+            dgvDados.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 204, 0);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,8 +64,29 @@ namespace Pet_shop___back_end
                 dgvDados.Update();
             }
 
+        }
 
-            
+        private void dgvDados_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+        {
+            if (!e.Row.IsNewRow)
+            {
+                DialogResult res = MessageBox.Show("Você tem certeza que quer excluir essa linha?", "Deletar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (res == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
+        }
+
+        private void btnConsul_MouseEnter(object sender, EventArgs e)
+        {
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2;
+        }
+
+        private void btnConsul_MouseLeave(object sender, EventArgs e)
+        {
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_1;
         }
     }
 }

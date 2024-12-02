@@ -1,2 +1,7 @@
 Nome;E-mail;Telefone;Senha;Sexo
-luana;algo;2255555;bola;feminino
+luana;algo;2255555;bola;feminino 
+Carine;algo123@gmail.com;(11)44835-8459;Outro;bibinha12 
+Tiago;goias296@gmail.com;(33)95869-6044;Masculino;juquinha 
+Ken;barbie123@gmail.com;(44)23123-2132;Não-Binário;boneco 
+Vanderlei;juju189@gmail.com;(11)93884-9493;vovo;Masculino 
+Iza;brisa23@@gmail.com;(55)84839-4394;senha123;Preferiu não dizer

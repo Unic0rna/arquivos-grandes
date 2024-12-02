@@ -52,6 +52,7 @@ namespace Pet_shop___back_end
             txtDigi.Clear();
             lblMes.Text = "";
             calendario.Visible = false;
+            btLimpar.Visible = false;
         }
 
         private void btLimpar_MouseLeave(object sender, EventArgs e)

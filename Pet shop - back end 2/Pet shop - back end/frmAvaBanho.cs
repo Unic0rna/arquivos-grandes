@@ -118,8 +118,33 @@ namespace Pet_shop___back_end
                     sw.Close();
 
                     MessageBox.Show("Enviado com sucesso! Agradecemos por enviar sua avaliação","Enviado",MessageBoxButtons.OK,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1);
-                 }
+
+                    estrela1.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+                    estrela2.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+                    estrela3.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+                    estrela4.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+                    estrela5.Image = Pet_shop___back_end.Properties.Resources.icons8_estrela_50;
+
+                    txtAva.Text = "Escreva sua experiência...";
+                    txtAva.ForeColor = Color.White;
+                }
             }
+        }
+
+        private void txtAva_Click(object sender, EventArgs e)
+        {
+            txtAva.Text = "";
+            txtAva.ForeColor = Color.Black;
+        }
+
+        private void btnEnviar_MouseEnter(object sender, EventArgs e)
+        {
+            btnEnviar.BackgroundImage = Properties.Resources.Rectangle_21;
+        }
+
+        private void btnEnviar_MouseLeave(object sender, EventArgs e)
+        {
+            btnEnviar.BackgroundImage = Properties.Resources.bot_ama;
         }
     }
 }

@@ -29,22 +29,22 @@ namespace Pet_shop___back_end
                 {
                     linhas.Add(linha);
                 }
-
+                
                 lista.DataSource = linhas;
-
+                
             }
         }
 
         private void btnConsul_MouseLeave(object sender, EventArgs e)
         {
-            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_sombra;
-            btnConsul.ForeColor = Color.Black;
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_ama;
+            
         }
 
         private void btnConsul_MouseEnter(object sender, EventArgs e)
         {
-            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2__6_;
-            btnConsul.ForeColor = Color.White;
+            btnConsul.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_21;
+            
         }
     }
 }

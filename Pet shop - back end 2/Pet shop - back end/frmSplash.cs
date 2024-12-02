@@ -19,6 +19,36 @@ namespace Pet_shop___back_end
 
         private void timer_Tick(object sender, EventArgs e)
         {
+            if (progresso.Value == 1)
+            {
+                patinha1.Visible = true;
+            }
+
+            if (progresso.Value == 30)
+            {
+                patinha2.Visible = true;
+            }
+
+            if (progresso.Value == 50)
+            {
+                patinha3.Visible = true;
+            }
+
+            if (progresso.Value == 70)
+            {
+                patinha4.Visible = true;
+            }
+
+            if (progresso.Value == 90)
+            {
+                patinha5.Visible = true;
+            }
+
+            if (progresso.Value == 100)
+            {
+                patinha6.Visible = true;
+            }
+
             if (progresso.Value < 100)
             {
                 progresso.Value++;
@@ -41,7 +71,7 @@ namespace Pet_shop___back_end
 
         private void frmSplash_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

@@ -61,5 +61,34 @@ namespace Pet_shop___back_end
 
             }
         }
+
+        private void btnConsult_MouseEnter(object sender, EventArgs e)
+        {
+            btnConsult.BackgroundImage = Pet_shop___back_end.Properties.Resources.retangulo_escuro;
+        }
+
+        private void btnConsult_MouseLeave(object sender, EventArgs e)
+        {
+            btnConsult.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_1;
+        }
+
+        private void dgvDados_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+        {
+            if (!e.Row.IsNewRow)
+            {
+                DialogResult res = MessageBox.Show("Você tem certeza que quer excluir essa linha?", "Deletar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (res == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
+        }
+
+        private void frmConsulAgenBanho_Load(object sender, EventArgs e)
+        {
+            dgvDados.EnableHeadersVisualStyles = false;
+            dgvDados.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(130, 194, 203);
+        }
     }
 }

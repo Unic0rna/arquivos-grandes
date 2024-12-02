@@ -75,7 +75,8 @@
             this.txtCaptcha.Location = new System.Drawing.Point(416, 314);
             this.txtCaptcha.Name = "txtCaptcha";
             this.txtCaptcha.Size = new System.Drawing.Size(240, 33);
-            this.txtCaptcha.TabIndex = 1;
+            this.txtCaptcha.TabIndex = 3;
+            this.txtCaptcha.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCaptcha_KeyUp);
             // 
             // panel1
             // 
@@ -143,7 +144,8 @@
             this.txtEmail.Location = new System.Drawing.Point(416, 35);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(240, 30);
-            this.txtEmail.TabIndex = 5;
+            this.txtEmail.TabIndex = 0;
+            this.txtEmail.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtEmail_KeyUp);
             // 
             // txtNova_Senha
             // 
@@ -151,7 +153,8 @@
             this.txtNova_Senha.Location = new System.Drawing.Point(416, 82);
             this.txtNova_Senha.Name = "txtNova_Senha";
             this.txtNova_Senha.Size = new System.Drawing.Size(240, 30);
-            this.txtNova_Senha.TabIndex = 6;
+            this.txtNova_Senha.TabIndex = 1;
+            this.txtNova_Senha.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtNova_Senha_KeyUp);
             // 
             // label3
             // 
@@ -189,7 +192,8 @@
             this.txtConfi_Senha.Location = new System.Drawing.Point(416, 128);
             this.txtConfi_Senha.Name = "txtConfi_Senha";
             this.txtConfi_Senha.Size = new System.Drawing.Size(240, 30);
-            this.txtConfi_Senha.TabIndex = 9;
+            this.txtConfi_Senha.TabIndex = 2;
+            this.txtConfi_Senha.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtConfi_Senha_KeyUp);
             // 
             // pictureBox5
             // 
@@ -232,7 +236,7 @@
             this.btnConfi_Senha.Location = new System.Drawing.Point(320, 484);
             this.btnConfi_Senha.Name = "btnConfi_Senha";
             this.btnConfi_Senha.Size = new System.Drawing.Size(202, 65);
-            this.btnConfi_Senha.TabIndex = 3;
+            this.btnConfi_Senha.TabIndex = 4;
             this.btnConfi_Senha.Text = "Redefinir senha";
             this.btnConfi_Senha.UseVisualStyleBackColor = true;
             this.btnConfi_Senha.Click += new System.EventHandler(this.btnConfi_Senha_Click);
@@ -283,6 +287,7 @@
             this.Controls.Add(this.pictureBox6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmRede_Senha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rede_Senha";
             this.Load += new System.EventHandler(this.frmRede_Senha_Load);
             this.panel1.ResumeLayout(false);

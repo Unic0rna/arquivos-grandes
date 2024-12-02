@@ -42,7 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(47, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(665, 48);
@@ -51,13 +51,16 @@
             // 
             // lista
             // 
-            this.lista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.lista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(194)))), ((int)(((byte)(203)))));
             this.lista.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lista.Font = new System.Drawing.Font("Poppins Medium", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lista.FormattingEnabled = true;
+            this.lista.HorizontalScrollbar = true;
             this.lista.ItemHeight = 30;
             this.lista.Location = new System.Drawing.Point(65, 108);
+            this.lista.MultiColumn = true;
             this.lista.Name = "lista";
+            this.lista.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.lista.Size = new System.Drawing.Size(647, 390);
             this.lista.TabIndex = 6;
             // 
@@ -73,16 +76,19 @@
             // 
             // btnConsul
             // 
-            this.btnConsul.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_sombra;
+            this.btnConsul.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_ama;
             this.btnConsul.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnConsul.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConsul.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(194)))), ((int)(((byte)(203)))));
             this.btnConsul.FlatAppearance.BorderSize = 0;
+            this.btnConsul.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(194)))), ((int)(((byte)(203)))));
+            this.btnConsul.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(194)))), ((int)(((byte)(203)))));
             this.btnConsul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsul.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsul.Location = new System.Drawing.Point(299, 540);
             this.btnConsul.Name = "btnConsul";
             this.btnConsul.Size = new System.Drawing.Size(182, 53);
-            this.btnConsul.TabIndex = 8;
+            this.btnConsul.TabIndex = 0;
             this.btnConsul.Text = "Consultar";
             this.btnConsul.UseVisualStyleBackColor = true;
             this.btnConsul.Click += new System.EventHandler(this.btnConsul_Click);
@@ -103,14 +109,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(194)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(777, 601);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnConsul);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lista);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsulAvaBanho";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Avaliação ao atendimento de banho e tosa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

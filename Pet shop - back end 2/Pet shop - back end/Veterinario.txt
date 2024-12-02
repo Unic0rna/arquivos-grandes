@@ -1,2 +1,6 @@
 Tutor;Nome do Pet;Telefone;Animal;Tipo de consulta;Dia;Horário 
-sadas;hjhj;(22) 222-2222;Gato;Urologia;15/12/2024;13:40
+sadas;hjhj;(22) 222-2222;Gato;Urologia;15/12/2024;13:40 
+Amanda;Alfredo;(11) 888-8888;Pato;Check-in;23/12/2024;20:30 
+Caio;Napoleão;(11) 559-5588;Gato;Raio-x;04/12/2024;08:40 
+Carlinho;jujubinha;(11) 239-3482;Hamster;Cardiologia;23/12/2024;10:00 
+Sofia;cacau;(33) 657-5675;Rato;Check-in;11/12/2024;08:30

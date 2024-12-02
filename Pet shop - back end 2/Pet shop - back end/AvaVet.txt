@@ -10,3 +10,16 @@ __________
 Nota: 2.0
 Comentário: Troço ruim
 __________
+ 
+Nota: 3.0
+Comentário: Atendimento razuável, precisa melhorar
+
+__________
+ 
+Nota: 4.0
+Comentário: Gostei muitooo
+__________
+ 
+Nota: 4.0
+Comentário: teste
+__________

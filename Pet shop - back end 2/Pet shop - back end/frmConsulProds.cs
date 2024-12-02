@@ -27,7 +27,6 @@ namespace Pet_shop___back_end
 
         private void btnConsult_Click(object sender, EventArgs e)
         {
-            
 
             using (System.IO.StreamReader sr = new System.IO.StreamReader(caminho))
             {
@@ -60,33 +59,38 @@ namespace Pet_shop___back_end
 
                 sr.Close();
                 dgvDados.DataSource = dt;
-                
+
 
                 dgvDados = new DataGridView();
                 dgvDados.Update();
+
             }
 
         }
 
-        private void btnLimpar_Click(object sender, EventArgs e)
+        private void frmConsulProds_Load(object sender, EventArgs e)
         {
+            dgvDados.Width = 542;
 
-
-
-            //if (File.Exists(caminho))
-            //{
-            //    var linhas = File.ReadAllLines(caminho);
-            //    File.WriteAllText (caminho,string.Empty);
-            //}
-
+            dgvDados.EnableHeadersVisualStyles = false;
+            dgvDados.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255,204,0);
+            
         }
 
-        private void btnConsult_MouseHover(object sender, EventArgs e)
+        private void dgvDados_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
         {
-            btnConsult.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2;
+            if (!e.Row.IsNewRow)
+            {
+                DialogResult res = MessageBox.Show("Você tem certeza que quer excluir essa linha?","Deletar?",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+                if (res == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
         }
 
-        private void btnConsult_MouseMove(object sender, MouseEventArgs e)
+        private void btnConsult_MouseEnter(object sender, EventArgs e)
         {
             btnConsult.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_2;
         }
@@ -95,11 +99,5 @@ namespace Pet_shop___back_end
         {
             btnConsult.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_1;
         }
-        
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-}
+    } 

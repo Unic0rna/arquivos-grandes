@@ -48,6 +48,11 @@ namespace Pet_shop___back_end
                     return;
                 }
 
+                if (txtNova_Senha.Text != txtConfi_Senha.Text)
+                {
+                    MessageBox.Show("Por favor digite a mesma senha em NOVA SENHA e CONFIRMAR SENHA", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
                 int indexLinha = listaUsuarios.IndexOf(usuario);
 
                 string[] arrLine = File.ReadAllLines(caminho);
@@ -63,7 +68,7 @@ namespace Pet_shop___back_end
 
             else
             {
-                MessageBox.Show("Captchas não preenchidos com sucesso ou Não foi preenchido todos os campos","Atenção!",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("Captchas não preenchidos corretamente ou não foi preenchido todos os campos","Atenção!",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
 
         }
@@ -93,6 +98,38 @@ namespace Pet_shop___back_end
         private void frmRede_Senha_Load(object sender, EventArgs e)
         {
            string Nova_Senha = txtNova_Senha.Text;
+        }
+
+        private void txtEmail_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtNova_Senha.Focus();
+            }
+        }
+
+        private void txtNova_Senha_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtConfi_Senha.Focus();
+            }
+        }
+
+        private void txtConfi_Senha_KeyUp(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                txtCaptcha.Focus();
+            }
+        }
+
+        private void txtCaptcha_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnConfi_Senha.Focus();
+            }
         }
     }
 }

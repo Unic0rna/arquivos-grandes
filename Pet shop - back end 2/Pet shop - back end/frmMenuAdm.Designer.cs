@@ -187,6 +187,7 @@
             this.atendimentoBanhoETosaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
             this.atendimentoBanhoETosaToolStripMenuItem.Size = new System.Drawing.Size(517, 46);
             this.atendimentoBanhoETosaToolStripMenuItem.Text = "Atendimento banho e tosa";
+            this.atendimentoBanhoETosaToolStripMenuItem.Click += new System.EventHandler(this.atendimentoBanhoETosaToolStripMenuItem_Click);
             // 
             // banhoETosaToolStripMenuItem
             // 
@@ -321,7 +322,10 @@
             this.btnLogin.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.retangulo_escuro;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
@@ -341,7 +345,10 @@
             this.btnSair.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.retangulo_escuro;
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Poppins Medium", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.White;

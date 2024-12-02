@@ -12,7 +12,7 @@ namespace Pet_shop___back_end
 {
     public partial class frmCadastroCli : Form
     {
-        string caminho = @"C:\Users\Debora\OneDrive\Desktop\Pet shop - back end\Pet shop - back end\Cliente.txt";
+        string caminho = @"C:\Pet shop - back end 2\Pet shop - back end\Cliente.txt";
 
         public frmCadastroCli()
         {
@@ -60,34 +60,33 @@ namespace Pet_shop___back_end
                             }
                             
                             sw.Write(maskedCelular.Text + ";");
+                            sw.Write(txtSenha.Text + ";");
 
                             if (radFeminino.Checked == true)
                             {
-                                sw.Write("Feminino;");
+                                sw.Write("Feminino");
                             }
 
                             else if (radMasculino.Checked == true)
                             {
-                                sw.Write("Masculino;");
+                                sw.Write("Masculino");
                             }
 
                             else if (radNB.Checked == true)
                             {
-                                sw.Write("Não-Binário;");
+                                sw.Write("Não-Binário");
                             }
 
                             else if (radOutro.Checked == true)
                             {
-                                sw.Write("Outro;");
+                                sw.Write("Outro");
                             }
 
                             else if (radPriv.Checked == true)
                             {
-                                sw.Write("Preferiu não dizer;");
+                                sw.Write("Preferiu não dizer");
                             }
 
-                            sw.Write(txtSenha.Text);
-                           
                             sw.Close();
                         }
 
@@ -101,12 +100,12 @@ namespace Pet_shop___back_end
                         radOutro.Checked = false;
                         radPriv.Checked = false;
 
-                        MessageBox.Show("Cadastro feito com sucesso!","Sucesso!");
+                        MessageBox.Show("Cadastro feito com sucesso!","Cadastrado",MessageBoxButtons.OK,MessageBoxIcon.Information);
                     }
 
                     else
                     {
-                        MessageBox.Show("A senha não está igual em SENHA e CONFIRMAR SENHA, por favor escreva a senha igual em ambos campos", "Atenção!", MessageBoxButtons.OK);
+                        MessageBox.Show("A senha não está igual em SENHA e CONFIRMAR SENHA, por favor escreva a senha igual em ambos campos", "Atenção!", MessageBoxButtons.OK,MessageBoxIcon.Warning);
                     }
                 }
             }
@@ -155,6 +154,16 @@ namespace Pet_shop___back_end
         private void radOutro_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCadastrar_MouseEnter(object sender, EventArgs e)
+        {
+            btnCadastrar.BackgroundImage = Pet_shop___back_end.Properties.Resources.Rectangle_21;
+        }
+
+        private void btnCadastrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnCadastrar.BackgroundImage = Pet_shop___back_end.Properties.Resources.bot_ama;
         }
     }
 }

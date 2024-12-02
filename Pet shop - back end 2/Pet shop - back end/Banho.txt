@@ -1,1 +1,3 @@
-Nome do Pet;Peso;Tipo de banho e tosa;Serviço adicional;Dia;Horário
+Nome do Pet;Peso;Tipo de banho e tosa;Serviço adicional;Dia;Horário 
+Mila;Tamanho GG - 30,1kg até 40kg;Banho e tosa na máquina (R$80,00);Escovação de dente (R$5,00);14/12/2024;13:00 
+Moana;Tamanho P - até 10kg;Banho e tosa na máquina (R$80,00);Escovação de dente (R$5,00);11/12/2024;20:00

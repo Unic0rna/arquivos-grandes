@@ -47,6 +47,7 @@
             this.lista.ItemHeight = 30;
             this.lista.Location = new System.Drawing.Point(65, 110);
             this.lista.Name = "lista";
+            this.lista.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.lista.Size = new System.Drawing.Size(647, 390);
             this.lista.TabIndex = 0;
             // 
@@ -65,7 +66,10 @@
             this.btnConsul.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_ama;
             this.btnConsul.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnConsul.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConsul.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
             this.btnConsul.FlatAppearance.BorderSize = 0;
+            this.btnConsul.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
+            this.btnConsul.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
             this.btnConsul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsul.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsul.Location = new System.Drawing.Point(299, 542);
@@ -75,6 +79,8 @@
             this.btnConsul.Text = "Consultar";
             this.btnConsul.UseVisualStyleBackColor = true;
             this.btnConsul.Click += new System.EventHandler(this.button1_Click);
+            this.btnConsul.MouseEnter += new System.EventHandler(this.btnConsul_MouseEnter);
+            this.btnConsul.MouseLeave += new System.EventHandler(this.btnConsul_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -107,6 +113,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lista);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmConsulAvaVet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmConsulAvaVet";

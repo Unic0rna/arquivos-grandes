@@ -43,13 +43,16 @@
             this.agendarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informaçõesPessoaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agendamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.naoSelecionado = new System.Windows.Forms.PictureBox();
+            this.Selecionado = new System.Windows.Forms.PictureBox();
             this.Menu.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.naoSelecionado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Selecionado)).BeginInit();
             this.SuspendLayout();
             // 
             // Menu
@@ -89,7 +92,8 @@
             this.redesSociaisToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("redesSociaisToolStripMenuItem.Image")));
             this.redesSociaisToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.redesSociaisToolStripMenuItem.Name = "redesSociaisToolStripMenuItem";
-            this.redesSociaisToolStripMenuItem.Size = new System.Drawing.Size(275, 46);
+            this.redesSociaisToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.redesSociaisToolStripMenuItem.Size = new System.Drawing.Size(370, 46);
             this.redesSociaisToolStripMenuItem.Text = "Redes sociais";
             this.redesSociaisToolStripMenuItem.ToolTipText = "Confira nossas redes sociais";
             this.redesSociaisToolStripMenuItem.Click += new System.EventHandler(this.redesSociaisToolStripMenuItem_Click);
@@ -99,7 +103,7 @@
             this.fAQToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fAQToolStripMenuItem.Image")));
             this.fAQToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(275, 46);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(370, 46);
             this.fAQToolStripMenuItem.Text = "FAQ";
             this.fAQToolStripMenuItem.ToolTipText = "Aba de ajuda com perguntas frequentes de nossos clientes";
             // 
@@ -110,8 +114,10 @@
             this.agendarBanhotosaToolStripMenuItem});
             this.agendamentoToolStripMenuItem.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Bold);
             this.agendamentoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.agendamentoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("agendamentoToolStripMenuItem.Image")));
+            this.agendamentoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.agendamentoToolStripMenuItem.Name = "agendamentoToolStripMenuItem";
-            this.agendamentoToolStripMenuItem.Size = new System.Drawing.Size(135, 54);
+            this.agendamentoToolStripMenuItem.Size = new System.Drawing.Size(167, 54);
             this.agendamentoToolStripMenuItem.Text = "Serviços";
             // 
             // agendarConsultaVeterináriaToolStripMenuItem
@@ -130,8 +136,8 @@
             this.avaliartim.Image = ((System.Drawing.Image)(resources.GetObject("avaliartim.Image")));
             this.avaliartim.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.avaliartim.Name = "avaliartim";
-            this.avaliartim.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.avaliartim.Size = new System.Drawing.Size(319, 46);
+            this.avaliartim.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
+            this.avaliartim.Size = new System.Drawing.Size(322, 46);
             this.avaliartim.Text = "Avaliar";
             this.avaliartim.Click += new System.EventHandler(this.avaliartim_Click);
             // 
@@ -140,8 +146,8 @@
             this.agendarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("agendarToolStripMenuItem.Image")));
             this.agendarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.agendarToolStripMenuItem.Name = "agendarToolStripMenuItem";
-            this.agendarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(319, 46);
+            this.agendarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(322, 46);
             this.agendarToolStripMenuItem.Text = "Agendar";
             this.agendarToolStripMenuItem.ToolTipText = "Agende a consulta veterinária para seu o Pet";
             this.agendarToolStripMenuItem.Click += new System.EventHandler(this.agendarToolStripMenuItem_Click);
@@ -162,8 +168,8 @@
             this.avaliarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("avaliarToolStripMenuItem1.Image")));
             this.avaliarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.avaliarToolStripMenuItem1.Name = "avaliarToolStripMenuItem1";
-            this.avaliarToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.avaliarToolStripMenuItem1.Size = new System.Drawing.Size(321, 46);
+            this.avaliarToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.avaliarToolStripMenuItem1.Size = new System.Drawing.Size(316, 46);
             this.avaliarToolStripMenuItem1.Text = "Avaliar";
             this.avaliarToolStripMenuItem1.ToolTipText = "Avalie nosso atendimento de banho e tosa";
             this.avaliarToolStripMenuItem1.Click += new System.EventHandler(this.avaliarToolStripMenuItem1_Click);
@@ -173,8 +179,8 @@
             this.agendarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("agendarToolStripMenuItem1.Image")));
             this.agendarToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.agendarToolStripMenuItem1.Name = "agendarToolStripMenuItem1";
-            this.agendarToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.agendarToolStripMenuItem1.Size = new System.Drawing.Size(321, 46);
+            this.agendarToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.agendarToolStripMenuItem1.Size = new System.Drawing.Size(316, 46);
             this.agendarToolStripMenuItem1.Text = "Agendar";
             this.agendarToolStripMenuItem1.ToolTipText = "Agende o serviço de banho e tosa para o seu Pet";
             this.agendarToolStripMenuItem1.Click += new System.EventHandler(this.agendarToolStripMenuItem1_Click);
@@ -182,8 +188,7 @@
             // ajudaToolStripMenuItem
             // 
             this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.informaçõesPessoaisToolStripMenuItem,
-            this.agendamentosToolStripMenuItem});
+            this.informaçõesPessoaisToolStripMenuItem});
             this.ajudaToolStripMenuItem.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Bold);
             this.ajudaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ajudaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ajudaToolStripMenuItem.Image")));
@@ -201,15 +206,7 @@
             this.informaçõesPessoaisToolStripMenuItem.Size = new System.Drawing.Size(475, 46);
             this.informaçõesPessoaisToolStripMenuItem.Text = "Informações pessoais";
             this.informaçõesPessoaisToolStripMenuItem.ToolTipText = "Confira as suas informações de conta";
-            // 
-            // agendamentosToolStripMenuItem
-            // 
-            this.agendamentosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("agendamentosToolStripMenuItem.Image")));
-            this.agendamentosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.agendamentosToolStripMenuItem.Name = "agendamentosToolStripMenuItem";
-            this.agendamentosToolStripMenuItem.Size = new System.Drawing.Size(388, 46);
-            this.agendamentosToolStripMenuItem.Text = "Agendamentos";
-            this.agendamentosToolStripMenuItem.ToolTipText = "Confira os agendamentos feitos por você";
+            this.informaçõesPessoaisToolStripMenuItem.Click += new System.EventHandler(this.informaçõesPessoaisToolStripMenuItem_Click);
             // 
             // toolTip1
             // 
@@ -232,7 +229,10 @@
             this.btnLogin.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.retangulo_escuro;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
@@ -243,6 +243,8 @@
             this.btnLogin.Text = "Voltar a tela de login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnLogin.MouseEnter += new System.EventHandler(this.btnLogin_MouseEnter);
+            this.btnLogin.MouseLeave += new System.EventHandler(this.btnLogin_MouseLeave);
             // 
             // btnSair
             // 
@@ -250,7 +252,10 @@
             this.btnSair.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.retangulo_escuro;
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Poppins Medium", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.White;
@@ -267,6 +272,35 @@
             this.btnSair.MouseEnter += new System.EventHandler(this.btnSair_MouseEnter);
             this.btnSair.MouseLeave += new System.EventHandler(this.btnSair_MouseLeave);
             // 
+            // naoSelecionado
+            // 
+            this.naoSelecionado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.naoSelecionado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(138)))), ((int)(((byte)(130)))));
+            this.naoSelecionado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.naoSelecionado.Image = ((System.Drawing.Image)(resources.GetObject("naoSelecionado.Image")));
+            this.naoSelecionado.Location = new System.Drawing.Point(905, 2);
+            this.naoSelecionado.Name = "naoSelecionado";
+            this.naoSelecionado.Size = new System.Drawing.Size(68, 52);
+            this.naoSelecionado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.naoSelecionado.TabIndex = 10;
+            this.naoSelecionado.TabStop = false;
+            this.naoSelecionado.Click += new System.EventHandler(this.naoSelecionado_Click);
+            // 
+            // Selecionado
+            // 
+            this.Selecionado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Selecionado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(138)))), ((int)(((byte)(130)))));
+            this.Selecionado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Selecionado.Image = ((System.Drawing.Image)(resources.GetObject("Selecionado.Image")));
+            this.Selecionado.Location = new System.Drawing.Point(905, 2);
+            this.Selecionado.Name = "Selecionado";
+            this.Selecionado.Size = new System.Drawing.Size(68, 52);
+            this.Selecionado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Selecionado.TabIndex = 11;
+            this.Selecionado.TabStop = false;
+            this.Selecionado.Visible = false;
+            this.Selecionado.Click += new System.EventHandler(this.Selecionado_Click);
+            // 
             // frmMenuCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,6 +308,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(981, 512);
+            this.Controls.Add(this.Selecionado);
+            this.Controls.Add(this.naoSelecionado);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Menu);
             this.DoubleBuffered = true;
@@ -288,6 +324,8 @@
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.naoSelecionado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Selecionado)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -305,12 +343,13 @@
         private System.Windows.Forms.ToolStripMenuItem avaliarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem agendarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem informaçõesPessoaisToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agendamentosToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.ToolStripMenuItem redesSociaisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fAQToolStripMenuItem;
+        private System.Windows.Forms.PictureBox naoSelecionado;
+        private System.Windows.Forms.PictureBox Selecionado;
     }
 }

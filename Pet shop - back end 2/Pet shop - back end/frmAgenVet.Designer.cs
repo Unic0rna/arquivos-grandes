@@ -65,6 +65,7 @@
             this.txtTutor.Name = "txtTutor";
             this.txtTutor.Size = new System.Drawing.Size(263, 30);
             this.txtTutor.TabIndex = 0;
+            this.txtTutor.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtTutor_KeyUp);
             // 
             // txtPet
             // 
@@ -73,6 +74,7 @@
             this.txtPet.Name = "txtPet";
             this.txtPet.Size = new System.Drawing.Size(263, 30);
             this.txtPet.TabIndex = 1;
+            this.txtPet.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPet_KeyUp);
             // 
             // label2
             // 
@@ -175,6 +177,7 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(154, 30);
             this.dateTimePicker1.TabIndex = 6;
             this.dateTimePicker1.Value = new System.DateTime(2024, 12, 20, 23, 59, 0, 0);
+            this.dateTimePicker1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dateTimePicker1_KeyUp);
             // 
             // label7
             // 
@@ -195,6 +198,7 @@
             this.maskHora.Size = new System.Drawing.Size(154, 30);
             this.maskHora.TabIndex = 5;
             this.maskHora.ValidatingType = typeof(System.DateTime);
+            this.maskHora.KeyUp += new System.Windows.Forms.KeyEventHandler(this.maskHora_KeyUp);
             // 
             // label8
             // 
@@ -214,6 +218,7 @@
             this.maskTel.Name = "maskTel";
             this.maskTel.Size = new System.Drawing.Size(263, 30);
             this.maskTel.TabIndex = 2;
+            this.maskTel.KeyUp += new System.Windows.Forms.KeyEventHandler(this.maskTel_KeyUp);
             // 
             // btnAgendar
             // 
@@ -221,7 +226,10 @@
             this.btnAgendar.BackgroundImage = global::Pet_shop___back_end.Properties.Resources.bot_sombra;
             this.btnAgendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAgendar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgendar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
             this.btnAgendar.FlatAppearance.BorderSize = 0;
+            this.btnAgendar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
+            this.btnAgendar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(177)))), ((int)(((byte)(187)))));
             this.btnAgendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgendar.Font = new System.Drawing.Font("Poppins Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgendar.Location = new System.Drawing.Point(275, 510);
@@ -231,6 +239,8 @@
             this.btnAgendar.Text = "Agendar";
             this.btnAgendar.UseVisualStyleBackColor = false;
             this.btnAgendar.Click += new System.EventHandler(this.btnAgendar_Click);
+            this.btnAgendar.MouseEnter += new System.EventHandler(this.btnAgendar_MouseEnter);
+            this.btnAgendar.MouseLeave += new System.EventHandler(this.btnAgendar_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -271,6 +281,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agendar veterinário";
             this.Load += new System.EventHandler(this.frmAgenVet_Load);
+            this.MouseLeave += new System.EventHandler(this.frmAgenVet_MouseLeave);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
